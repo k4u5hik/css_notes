@@ -1,0 +1,59 @@
+@import "../node_modules/normalize.css/normalize.css" /* CSS Normalize */
+  /* Box-sizing border box */ * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.box {
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.box1 {
+  background-color: #00bcd4;
+}
+.box2 {
+  background-color: #ff9800;
+}
+.box3 {
+  background-color: #ff5722;
+}
+.box4 {
+  background-color: #9c27b0;
+}
+.box5 {
+  background-color: #3f51b5;
+}
+.box6 {
+  background-color: #2196f3;
+}
+.box7 {
+  background-color: #009688;
+}
+.box8 {
+  background-color: #4caf50;
+}
+.box9 {
+  background-color: #f44336;
+}
+.box10 {
+  background-color: #e91e63;
+}
+
+.container {
+  display: flex;
+  border: 10px solid goldenrod;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  /* row, column, row-reverse, column-reverse */
+}
+
+.box {
+  width: 33.333%;
+  margin: 10px;
+}
